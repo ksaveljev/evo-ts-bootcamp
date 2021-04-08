@@ -7,6 +7,8 @@ import Status from './Status';
 import {SortingStepStatus, generateRandomArray, bubbleSortStep} from './utils';
 import {ExecutionState, SortingStatus} from './Types';
 
+const STEP_INTERVAL_MS = 100;
+
 type AppProps = {
 };
 
@@ -40,7 +42,7 @@ class App extends React.Component<AppProps, AppState> {
     private startSorting(): void {
         if (this.state.executionState === ExecutionState.NOT_RUNNING) {
             this.setState({ executionState: ExecutionState.RUNNING });
-            this.executionTimer = setInterval(() => this.makeStep(), 50);
+            this.executionTimer = setInterval(() => this.makeStep(), STEP_INTERVAL_MS);
         }
     }
 
