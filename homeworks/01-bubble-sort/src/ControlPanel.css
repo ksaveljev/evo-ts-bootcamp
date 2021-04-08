@@ -1,0 +1,7 @@
+.ControlPanel {
+    display: block;
+    padding-top: 20px;
+}
+.ControlPanel > button:first-child {
+    margin-right: 15px;
+}
