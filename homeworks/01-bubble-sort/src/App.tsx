@@ -32,7 +32,7 @@ class App extends React.Component<AppProps, AppState> {
         };
     }
 
-    private reset(): void {
+    private resetSorting(): void {
         this.pauseSorting();
         this.setState(this.resetState());
     }
@@ -70,7 +70,7 @@ class App extends React.Component<AppProps, AppState> {
                 <Header />
                 <Visualization array={this.state.array} />
                 <ControlPanel
-                    resetFn={this.reset.bind(this)}
+                    resetSortingFn={this.resetSorting.bind(this)}
                     startSortingFn={this.startSorting.bind(this)}
                     pauseSortingFn={this.pauseSorting.bind(this)}
                     executionState={this.state.executionState}

@@ -4,7 +4,7 @@ import Button from './Button';
 import {ExecutionState, SortingStatus} from './Types';
 
 type ControlPanelProps = {
-    resetFn: (event: MouseEvent<HTMLButtonElement>) => void;
+    resetSortingFn: (event: MouseEvent<HTMLButtonElement>) => void;
     startSortingFn: (event: MouseEvent<HTMLButtonElement>) => void;
     pauseSortingFn: (event: MouseEvent<HTMLButtonElement>) => void;
     executionState: ExecutionState;
@@ -23,7 +23,7 @@ class ControlPanel extends React.Component<ControlPanelProps> {
 
         return (
             <div className="ControlPanel">
-                <Button text="New set" disabled={false} onClick={this.props.resetFn} />
+                <Button text="New set" disabled={false} onClick={this.props.resetSortingFn} />
                 { executionButton }
             </div>
         );
