@@ -46,7 +46,7 @@ class App extends React.Component<AppProps, AppState> {
         }
     }
 
-    private makeStep() {
+    private makeStep(): void {
         const [status, newArray] = bubbleSortStep(this.state.array);
         if (status === SortingStepStatus.NOTHING_TO_SORT) {
             this.pauseSorting();
