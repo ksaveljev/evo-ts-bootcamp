@@ -1,0 +1,19 @@
+{
+  "name": "03-data-structure",
+  "version": "0.0.1",
+  "description": "EvolutionGaming homework 3",
+  "author": "Konstantin Saveljev",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/ksaveljev/evo-ts-bootcamp/homeworks/03-data-structure",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage"
+  }
+}
