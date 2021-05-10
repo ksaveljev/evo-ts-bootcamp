@@ -1,0 +1,16 @@
+.heart {
+    width: 30px;
+    height: 23px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+}
+
+.transparent {
+    opacity: 0.3;
+}
+
+.opaque {
+    opacity: 0.7;
+}

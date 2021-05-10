@@ -1,0 +1,11 @@
+.selected {
+    text-decoration: none;
+    color: #000;
+    cursor: default;
+}
+
+.unselected {
+    text-decoration: underline;
+    color: #00F;
+    cursor: pointer;
+}
