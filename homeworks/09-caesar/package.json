@@ -1,0 +1,18 @@
+{
+  "name": "09-caesar",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "Konstantin Saveljev",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@types/yargs": "^16.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  }
+}
