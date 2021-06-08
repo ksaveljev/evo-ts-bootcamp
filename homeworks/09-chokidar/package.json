@@ -1,0 +1,17 @@
+{
+  "name": "09-chokidar",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "Konstantin Saveljev",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson-converter": "^2.0.4"
+  }
+}
